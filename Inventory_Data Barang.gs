@@ -126,8 +126,8 @@ function copasDataBarangKeSO() {
       if (c === 0) { values[r][c] = dataCode[r][0]; continue; } 
       if (c === 1) { values[r][c] = dataCat[r][0]; continue; }  
       if (c === 2) { values[r][c] = dataDesc[r][0]; continue; } 
-      if (c === 21) { values[r][c] = dataPrce[r][0]; continue; }
-      if (c === 32) { values[r][c] = dataCost[r][0]; continue; }
+      if (c === 20) { values[r][c] = dataPrce[r][0]; continue; }
+      if (c === 30) { values[r][c] = dataCost[r][0]; continue; }
 
       // LOGIKA RESET DEFAULT
       var headName = (headers[c] || "").toString().toLowerCase().trim();
